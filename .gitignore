@@ -1,9 +1,7 @@
 .idea
 node_modules
-dist
 .vscode
 coverage
-dist
 .DS_Store
 
 # these cause more harm than good

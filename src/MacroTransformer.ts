@@ -1,5 +1,5 @@
+import * as _typescript from 'typescript';
 import {
-    default as _typescript,
     Identifier,
     isImportDeclaration,
     isStringLiteral,

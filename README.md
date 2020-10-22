@@ -7,4 +7,4 @@ Typescript port of babel-plugin-macros. Unfortunately not compatible with babel-
 todo
 
 ### Usage
-todo
+todo, ttsc and ts-node, plus usage

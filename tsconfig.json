@@ -1,25 +1,19 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "esModuleInterop": true,
-    "allowJs": true,
+    "target": "es2015",
+    "declaration": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es6",
-    "strict": true,
-    "moduleResolution": "node",
-    "sourceMap": false,
-    "outDir": "dist",
-    "baseUrl": ".",
-    "types": ["node", "mocha"],
-    "paths": {
-      "*": ["node_modules/*"]
-    }
+    "outDir": "./dist",
+    "strict": true
   },
-  "include": ["./**/*"],
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
     "node_modules",
     ".vscode",
     ".idea",
     "dist"
-  ],
+  ]
 }
