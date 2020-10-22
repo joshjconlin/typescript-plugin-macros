@@ -221,7 +221,19 @@ class Transformer {
             throw new MacroError('imports of macros must have a clause');
         }
 
-        const identifier = importClause.name;
+        //import { RETRIABLE } from './src/domains/macros/retriable/retriable.macro';
+        //elements: [
+        // ImportSpecifier (RETRIABLE)
+        // pos:8
+        // end:18
+        // flags:0
+        // kind:258 (SyntaxKind.ImportSpecifier)
+        // name:
+        // Identifier
+        // ]
+        // todo: make this work with more than one import, {} imports
+        // @ts-ignore
+        const identifier = importClause.name ?? importClause.namedBindings.elements[0].name;
 
         if (!identifier) {
             throw new MacroError('Unable to get identifier of import');

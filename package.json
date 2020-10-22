@@ -2,7 +2,7 @@
   "name": "typescript-plugin-macros",
   "author": "Josh Conlin",
   "license": "MIT",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Typescript Macros",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
